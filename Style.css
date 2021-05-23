@@ -1,0 +1,274 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#333;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    margin:0;
+}
+
+p{
+    margin-bottom: 1.6em;
+}
+
+h1{
+    line-height: 1.3em;
+    font-size: 1.2rem;
+}
+
+h3{
+    line-height: 1.3em;
+    font-size: 3rem;
+    margin-left: 3rem;
+    margin-right: auto;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(45, 108, 192);
+    transition: all 0.4s linear;
+
+}
+
+h3:hover{
+    color: rgb(111, 218, 250);
+}
+
+.logoImage{
+    width: 300px;
+    height: 55px; 
+    margin-left: 20px;
+    margin-right: 0; 
+    float:left;
+}
+
+.main{
+    padding-top:1rem;
+    width: 85%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.main h2{
+    line-height: 1.3em;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+    margin-right: auto;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(28, 74, 133);
+    transition: all 0.4s linear;
+}
+
+.main h2:hover{
+    color: rgb(111, 218, 250);
+}
+
+.productos{
+    position: relative;
+    top:20px;
+    width:90%;
+    height: auto;
+    margin:auto;
+    
+   
+}
+
+
+
+.productos .list-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.productos .list-image li{
+    margin-right: 70px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.productos .list-image li .image{
+    position: relative;
+    width: 210px;
+    height: 210px;
+}
+
+.productos .list-image li .imagextintor{
+    position: relative;
+    width: 210px;
+    height: 350px;
+}
+
+/*.information_image{
+    text-align: center;
+}*/
+
+.information_image .Nombre{
+    text-align: center;
+    font-size: 25px;
+    height: auto;
+    width: 210px;
+    margin-bottom:0;
+    
+}
+.information_image .Nombre a{
+    text-decoration: none;
+    color:black;
+}
+
+.information_image .Nombre a:hover{
+    color: rgb(60, 170, 243);
+}
+
+.information_image .Descripcion{
+    font-size: 15px;
+    height: auto;
+    width: 210px;
+    margin-top:0;
+
+}
+
+.information_image .Precio{
+    font-size: 30px;
+    height: auto;
+    width: 210px;
+    margin:0;
+}
+
+.header {
+    background-color: rgb(79, 194, 223);
+    padding: 2rem 0;
+
+   /* position:fixed;
+    left: 0;
+    top: 0;
+    width: 100%;*/
+}
+
+.header a {
+    color:white;
+    text-decoration: none;
+}
+.logo{
+    letter-spacing: 15px;
+    font-size: 1.3em;
+    margin-right: 10px;
+    
+}
+
+
+.logo-nav-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+    margin-top: 1rem; 
+}
+
+.navigation ul li{
+    display:inline-block;
+}
+
+.navigation ul li a{
+    display:block;
+    padding:0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover{
+    background: rgb(81, 213, 253);
+}
+
+.footer{
+    background: rgb(79, 194, 223);
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.imagenProdu{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin:auto;
+    display: block;  
+}
+
+.imagenAlcohol{
+    position: center;
+    margin:auto;
+    display: block;
+    width: 300px;
+    height: 500px;  
+}
+
+.imagenIncendio{
+    position: center;
+    margin:auto;
+    display: block;
+    width: 300px;
+    height: 500px;  
+}
+
+.imagenExtintor{
+    position: center;
+    margin:auto;
+    display: block;
+    width: 300px;
+    height: 600px;  
+}
+
+.imagenInm{
+    position: center;
+    margin:auto;
+    display: block;
+    width: 300px;
+    height: 300px;  
+}
+
+
+.contenedorPag{
+    min-height:100vh;/*importante*/
+    position:relative;/*importante*/
+ 
+}
+
+.tablita tr td .Nombre{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 1.8rem;
+    font-style:inherit;
+}
+
+table td:first-child {
+    width: 500px;
+  }
+  table td:nth-child(2) {
+    width: 500px;
+  }
+
+.tablita{
+    margin: auto;
+}
+
+.contactos{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 1.8rem;
+    font-style:inherit;
+    margin-left: 100px;
+}
+
+.imagenInicio{
+    max-width: 800px;
+    height: auto;
+    display:block;
+    margin: auto;
+}
